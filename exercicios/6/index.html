@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/exercicios/6/main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impapa</title>
+</head>
+<body>
+    
+    <center>
+        <label id="tudo">
+
+            <h1>Impapa!</h1>
+
+            <label id="nometudo">
+            
+            nome1: 
+            <input type="text" placeholder="Nickname" id="nome1">
+            
+            <br>
+            
+            nome2: 
+            <input type="text" placeholder="Nickname" id="nome2">
+            
+            <br><br>
+            
+            <input type="button" onclick="nome()" value="Escolher!">
+            
+            <hr>
+
+        </label>
+            
+            <label id="players1">---</label>
+            
+            <br>
+            
+            <label id="players2">---</label>
+            
+            <hr>
+            
+            <input type="number" placeholder="" id="esc1">
+            |
+            <input type="number" placeholder="" id="esc2">
+            |
+            <input type="button" disabled="" onclick="jogar()" id="t" value="Jogar!">
+            
+            <br>
+            
+            <label id="res"></label><br>
+            <label id="res2"></label><br>
+            rodada: <label id="rod">0</label>
+            
+        </label>
+        </center>
+        
+    </body>
+    </html>
