@@ -41,4 +41,7 @@ function jogar(){
         document.getElementById("tudo").innerHTML += "<br><img src='/exercicios/6/index-anime.gif'>"
     }
 
+    document.getElementById("pts1").innerText = " Pontos = " + point1
+    document.getElementById("pts2").innerText = " Pontos = " + point2
+
 }
