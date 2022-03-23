@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/exercicios/7/main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Pedra papel tesoura</h1>
+        
+        <label id="tudo">
+        
+        <div id="nomes">
+        <hr>
+            <input type="text" id="nome1" placeholder="nickname">
+            <input type="text" id="nome2" placeholder="nickname">
+            <br><br>
+            <input type="button" onclick="nome()" value="Escolher nomes!">
+            
+            <hr>
+        </div> 
+       
+        <div id="esc1">
+            Escolha 1:
+        <br>
+
+            <img onclick="pedra1()" src="https://www.radiocacula.com.br/wp-content/uploads/media/images/4988/4988//526bb20394c806a190c951c8a886c49ba890e92ab6b9e.jpg" width="100px">
+            <img onclick="papel1()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaD54q8COQ2_RUR7wAEEuIXHGFaZ4LIEnp7WGBzPZm-8EdnMzIchNgEtTIOyFWePqjgHk&usqp=CAU" width="100px">
+            <img onclick="tesoura1()" src="https://s.dicio.com.br/lesbica.png" width="100px">
+
+        </div>
+
+        <div id="esc2" style="visibility: hidden;">
+            Escolha 2:
+        <br>
+            <img onclick="pedra2()" src="https://www.radiocacula.com.br/wp-content/uploads/media/images/4988/4988//526bb20394c806a190c951c8a886c49ba890e92ab6b9e.jpg" width="100px">
+            <img onclick="papel2()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaD54q8COQ2_RUR7wAEEuIXHGFaZ4LIEnp7WGBzPZm-8EdnMzIchNgEtTIOyFWePqjgHk&usqp=CAU" width="100px">
+            <img onclick="tesoura2()" src="https://s.dicio.com.br/lesbica.png" width="100px">
+        </div>
+
+        <div id="jogar" style="visibility: hidden;">
+            <input type="button" value="Jogar!" id="jog" onclick="jogar()">
+            <input type="button" value="Reset" onclick="reset()">
+            <br>
+            <label id="round"></label>
+            <br>
+            <label id="res"></label>
+        </div>
+<label id="ponto1"></label>
+<br>
+<label id="ponto2"></label>
+
+</label>
+
+    </center>
+    
+</body>
+</html>
