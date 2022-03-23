@@ -2,6 +2,7 @@ var nome1, nome2
 var e1, e2
 var point1 = 0 , point2 = 0
 var rodada = 0
+
 function nome() {
     nome1 = document.getElementById("nome1").value
     nome2 = document.getElementById("nome2").value
@@ -13,6 +14,7 @@ function nome() {
     
     document.getElementById("t").disabled=false
 }
+
 function jogar(){
     e1 = parseInt(document.getElementById("esc1").value)
     e2 = parseInt(document.getElementById("esc2").value)
