@@ -84,7 +84,7 @@ function jogar(){
         document.getElementById("res").innerText=nome2+" Ganhou a rodada!"
         point2++
     }
-round++
+    round++
     document.getElementById("round").innerText="Round: "+ round
     document.getElementById("jog").style.visibility="hidden"
 
