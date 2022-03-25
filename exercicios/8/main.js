@@ -14,7 +14,6 @@ function gerar(){
 
 aleat_img = imagens[Math.floor(Math.random()*imagens.length)]
 
-
 document.getElementById("foto").innerHTML="<img width='200px' src="+ aleat_img+">"
 
 idade = Math.floor(Math.random()*(100-18+1)+18)
@@ -40,6 +39,4 @@ g = Math.floor(Math.random()*10)
 b = Math.floor(Math.random()*10)
 
 document.body.style.backgroundColor= "#"+r+g+b
-
-
 }
