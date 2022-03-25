@@ -1,5 +1,3 @@
-//sortear uma cor de background para a ficha do personagem  (usar 5 cores diferentes)
-
 var l1,l2,l3,l4,l5
 var vogal,consoante
 var idade,nome,classe,imagens,aleat_img,aleat_clas
