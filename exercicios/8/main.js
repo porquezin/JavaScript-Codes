@@ -30,7 +30,7 @@ l5 = consoante[Math.floor(Math.random()*consoante.length)]
 
 l1 = l1.toUpperCase()
 
-nome = document.getElementById("nome").innerText = l1+l2+l3+l4+l5
+document.getElementById("nome").innerText = l1+l2+l3+l4+l5
  
 r = Math.floor(Math.random()*10)
 g = Math.floor(Math.random()*10)
