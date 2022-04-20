@@ -14,6 +14,8 @@ function game(x, cpu) {
             alert('ganhou!')
             win = true
             break
+        } else if (lvl == 3 && user != cpu) {
+            break
         } else if (user < cpu) {
             alert('Acima!')
         } else {
