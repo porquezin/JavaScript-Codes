@@ -11,9 +11,9 @@ function game(x, cpu) {
         } else if (lvl == 3 && user != cpu) {
             break
         } else if (user < cpu) {
-            alert('Acima!')
+            alert('Abaixo!')
         } else {
-            alert('Abaixo')
+            alert('Acima')
         }
     }
 }
@@ -22,6 +22,7 @@ function main() {
     alert('Dificuldades:  1- Easy | 2- Medium | 3- Hard')
     lvl = prompt('Escolha a dificuldade!')
     cpu = Math.floor(Math.random() * 21)
+    console.log('CPU = ',cpu)
 
     if (lvl == 1) {
         game(5, cpu)
@@ -32,7 +33,9 @@ function main() {
     } else {
         alert('Invalido!')
     }
+
     if (!win) {
         alert('perdeu!')
     }
+    win = false
 }
